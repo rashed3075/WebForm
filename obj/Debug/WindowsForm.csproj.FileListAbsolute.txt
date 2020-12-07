@@ -9,3 +9,4 @@ H:\Aiub files\C#\Final\WindowsForm\obj\Debug\WindowsForm.csproj.CoreCompileInput
 H:\Aiub files\C#\Final\WindowsForm\obj\Debug\WindowsForm.exe
 H:\Aiub files\C#\Final\WindowsForm\obj\Debug\WindowsForm.pdb
 H:\Aiub files\C#\Final\WindowsForm\obj\Debug\WindowsForm.Form2.resources
+H:\Aiub files\C#\Final\WindowsForm\obj\Debug\WindowsForm.Employee.resources

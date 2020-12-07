@@ -19,7 +19,7 @@ namespace WindowsForm
 
         private void employeeAdd(object sender, EventArgs e)
         {
-
+            new Employee().Show();
         }
     }
 }
