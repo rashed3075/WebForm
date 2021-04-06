@@ -43,15 +43,20 @@ namespace WindowsForm
             string user = userName.Text;
             string pass = password.Text;
             string output = String.Format("User Name : {0}\nPassword : {1}", user, pass);
-            if(user.Equals("Rashedul Haque")&&pass.Equals("19-39431-1"))
+            if(user.Equals(" ")&&pass.Equals(" "))
             {
-                new Form2().Show();
+                new Employee().Show();
 
             }
             else
             {
                 MessageBox.Show("Invalid user name or password", "Login Info",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

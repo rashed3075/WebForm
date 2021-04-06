@@ -66,6 +66,7 @@
             this.register = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -450,26 +451,34 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.richTextBox1);
-            this.panel1.Location = new System.Drawing.Point(542, 11);
+            this.panel1.Location = new System.Drawing.Point(519, 16);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(593, 708);
+            this.panel1.Size = new System.Drawing.Size(310, 386);
             this.panel1.TabIndex = 36;
             this.panel1.Visible = false;
             // 
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.richTextBox1.Location = new System.Drawing.Point(33, 15);
+            this.richTextBox1.Location = new System.Drawing.Point(3, 6);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(542, 680);
+            this.richTextBox1.Size = new System.Drawing.Size(307, 370);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(1173, 9);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(28, 575);
+            this.vScrollBar1.TabIndex = 37;
             // 
             // Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1275, 720);
+            this.ClientSize = new System.Drawing.Size(1210, 720);
+            this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.register);
             this.Controls.Add(this.State);
@@ -556,5 +565,6 @@
         private System.Windows.Forms.Button register;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
